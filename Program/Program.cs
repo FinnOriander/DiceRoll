@@ -46,6 +46,9 @@ namespace DiceRole
                     Console.ReadLine();
                 }
 
+                //checks if input is between 1-5 if not it loops
+                
+
                 switch (inputNum)
                 {
                     case 1:

@@ -27,6 +27,7 @@ namespace DiceRole
             if (results.Count == 0) {
                 return 0;
             }
+            
             int total = GetTotal();
             double average = total / (double)results.Count();
             return average;
